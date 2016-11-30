@@ -1,18 +1,72 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #c5f6fa;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #c5f6fa;
+}
+
+.features-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #99e9f2;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #99e9f2;
+}
+
 .container-fluid {
 	background-color: #24c4dc;
 	padding: 20px;
-	background-repeat: no-repeat;
-	background-image: none;
 }
 
 .nav-items {
 	font-weight: bolder;
-	font-size: 40px; 
+	font-size: 30px; 
 	font-family: 'Lobster';
+}
+
+.navbar-text {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.nav-bar-logo {
+	height: 80px;
+	margin:0;
+	padding: 0;
+	margin-left: -10px;
+    margin-top: -30px;
+}
+
+.navbar-header p {
+	color: #FFFFFF;
 }
 
 /* title */
 .navbar-default .navbar-brand {
+	height: 40px;
     color: #777;
 }
 .navbar-default .navbar-brand:hover,
