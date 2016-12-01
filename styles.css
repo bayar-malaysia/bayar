@@ -1,41 +1,3 @@
-body {
-    width: 100%;
-    height: 100%;
-}
-
-html {
-    width: 100%;
-    height: 100%;
-}
-
-.intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #c5f6fa;
-}
-
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #c5f6fa;
-}
-
-.features-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #99e9f2;
-}
-
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #99e9f2;
-}
-
 .container-fluid {
 	background-color: #24c4dc;
 	padding: 20px;
@@ -47,9 +9,19 @@ html {
 	font-family: 'Lobster';
 }
 
+.brand-name {
+	color: #FFFFFF;
+}
+
+.page-heading > h1{
+	font-weight: bolder;
+	font-size: 30px; 
+	font-family: 'Lobster';
+}
+
 .navbar-text {
 	font-weight: bolder;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .nav-bar-logo {
@@ -60,7 +32,7 @@ html {
     margin-top: -30px;
 }
 
-.navbar-header p {
+.navbar-header .navbar-text {
 	color: #FFFFFF;
 }
 

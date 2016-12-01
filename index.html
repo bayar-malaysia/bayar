@@ -10,7 +10,12 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 		<link rel="stylesheet" href="styles.css">
-		
+		<link rel="stylesheet" href="css/scrolling-nav.css">
+
+		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+		</style>
 	</head>	
 	
 	<script src="https://use.fontawesome.com/451a7cebcf.js"></script>
@@ -25,14 +30,14 @@
 				      <span class="icon-bar"></span>
 				      <span class="icon-bar"></span>
 				    </button>
-				    <a class="navbar-brand" href="#intro"><img class="nav-bar-logo" src="img/logo.png"></a>
+				    <a class="navbar-brand page-scroll" href="#intro"><img class="nav-bar-logo" src="img/logo.png"></a>
 				    <p class="navbar-text">Coming soon ... </p>
 			    </div>
 			    <div class="navbar-collapse collapse">
 				    <ul class="nav navbar-nav navbar-right">
-				      <li><a class="nav-items" href="#features">Features</a></li>
-				      <li><a class="nav-items" href="#about">About</a></li>
-				      <li><a class="nav-items" href="#contact">Contact</a></li>
+				      <li><a class="nav-items page-scroll" href="#features">Features</a></li>
+				      <li><a class="nav-items page-scroll" href="#about">About</a></li>
+				      <li><a class="nav-items page-scroll" href="#contact">Contact</a></li>
 				    </ul>
 				  </div>
 			  </div>
@@ -42,8 +47,9 @@
 		<section id="intro" class="intro-section">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-lg-12">
-	                    <h1>Introduction</h1>
+	                <div class="page-heading col-lg-12">
+	                    <h1>Why use cash when you can bayar?</h1> <br>
+	                    <h2>Make payments to friends, family and your favorite stores with a few taps on your phone</h2>
 	                </div>
 	            </div>
 	        </div>
@@ -52,8 +58,11 @@
  		<section id="features" class="features-section">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-lg-12">
+	                <div class="page-heading col-lg-12">
 	                    <h1>Features</h1>
+	                    <div class="embed-responsive embed-responsive-16by9">
+	                    	<iframe src="https://marvelapp.com/1f20egb?emb=1" width="452" height="901" allowTransparency="true" frameborder="0"></iframe>
+	                    </div>
 	                </div>
 	            </div>
 	        </div>
@@ -62,8 +71,15 @@
    		 <section id="about" class="about-section">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-lg-12">
-	                    <h1>About</h1>
+	                <div class="page-heading col-lg-12">
+	                    <h1>About</h1> <br>
+	                    <div class="panel panel-default">
+  							<div class="panel-body">
+    							<h2>BAYAR is a social enterprise with a mission to transform the way people move their money. 
+	                    	Bayar will enable millions of Malaysians to transfer money to their friends, loved ones and 
+	                    	make purchases at their favorite stores with just a few taps on their phone.<h2>
+  							</div>
+						</div>
 	                </div>
 	            </div>
 	        </div>
@@ -72,15 +88,71 @@
     	<section id="contact" class="contact-section">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-lg-12">
-	                    <h1>Contact</h1>
-	                </div>
+	                <div class="page-heading col-lg-12">
+	                    <h1>Contact Us</h1>
+	               	</div>
 	            </div>
+
+	            <br><br>
+
+	            <div class="row">
+	            	<div class="col-xs-8 col-xs-push-2">
+			            <!-- Begin MailChimp Signup Form -->
+						<div id="mc_embed_signup" class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Get added to our mailing list while you're at it</h3>
+		   					</div>
+
+		   					<div class="panel-body">
+		   						<form action="//bayarwallet.us14.list-manage.com/subscribe/post?u=1a4bcced2d0ffb94514e6a400&amp;id=b1227d96f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+			   						<div id="mc_embed_signup_scroll">
+										<div class="form-group row mc-field-group">
+											<label for="mce-EMAIL" class="col-xs-4 col-form-label">Email <span class="asterisk">*</span></label>
+											<div class="col-xs-8">
+												<input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL">
+											</div>
+										</div>
+
+										<div class="form-group row mc-field-group">
+											<label for="mce-FNAME" class="col-xs-4 col-form-label">First Name</label>
+											<div class="col-xs-8">
+												<input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
+											</div>
+										</div>
+												
+										<div class="form-group row mc-field-group">
+											<label for="mce-LNAME"  class="col-xs-4 col-form-label">Last Name </label>
+											<div class="col-xs-8">
+												<input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
+											</div>
+										</div>
+
+										<div class="form-group row mc-field-group">
+											<label for="mce-INQUIRY" class="col-xs-4 col-form-label">Inquiry </label>
+											<div class="col-xs-8">
+												<textarea class="form-control" rows="5" id="mce-INQUIRY" name="INQUIRY"></textarea>
+											</div>
+										</div>
+												
+										<div id="mce-responses" class="clear">
+											<div class="response" id="mce-error-response" style="display:none"></div>
+											<div class="response" id="mce-success-response" style="display:none"></div>
+										</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+										
+										<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1a4bcced2d0ffb94514e6a400_b1227d96f0" tabindex="-1" value=""></div>
+										<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-info"></div>
+									</div>
+								</form>
+		   					</div>			
+						</div>
+					</div>
+				</div>
+						<!--End mc_embed_signup-->
 	        </div>
     	</section>
 
-	<!-- 	<div class="jumbotron">
-  			<div class="container">
+	<!--	<div>
   				<p>
   					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sapien metus, consectetur sit amet tortor eu, porttitor imperdiet ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur imperdiet magna vel nisi pellentesque, eu finibus enim vehicula. Vivamus hendrerit enim sed enim maximus, a sodales enim feugiat. Nam interdum mollis egestas. Vivamus faucibus tortor ut velit luctus lobortis. Aliquam vel lectus congue, volutpat lacus in, vehicula sapien. Ut id posuere metus. 
   				</p>
@@ -88,12 +160,31 @@
 					<div class="col-xs-6"><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></div>
 					<div class="col-xs-6"><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></div>
 				</div>
-  			</div>
-		</div> -->
+  			</div>	
+  	-->
 
 	</body>
 
+	 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+	 <script type='text/javascript'>
+	 	(function($) {
+	 		window.fnames = new Array(); 
+	 		window.ftypes = new Array();
+	 		fnames[0]='EMAIL';
+	 		ftypes[0]='email';
+	 		fnames[1]='FNAME';
+	 		ftypes[1]='text';
+	 		fnames[2]='LNAME';
+	 		ftypes[2]='text';
+	 		fnames[3]='INQUIRY';
+	 		ftypes[3]='text';
+	 	}(jQuery));
+	 		var $mcj = jQuery.noConflict(true);
+	</script>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </html>
